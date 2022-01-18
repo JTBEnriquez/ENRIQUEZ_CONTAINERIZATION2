@@ -1,0 +1,5 @@
+---
+- docker:
+    name: docker
+    image: enriquez_containerization2_devbox:latest
+    state: started

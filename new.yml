@@ -1,0 +1,8 @@
+---
+- name: create web image
+  hosts: docker
+  tasks:
+  - name: Build image
+    docker_image:
+      path: ~/ENRIQUEZ_CONTAINERIZATION2
+      name: finalfinal

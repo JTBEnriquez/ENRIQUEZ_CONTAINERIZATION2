@@ -1,0 +1,8 @@
+---
+- name: playbook
+  hosts: all
+  become: true
+  tasks:
+
+  - name: call
+    include: call.yml
